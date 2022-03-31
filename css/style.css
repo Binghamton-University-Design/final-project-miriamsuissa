@@ -1,0 +1,14 @@
+/*stylesheet*/
+
+/* vars */
+:root {
+  --background-color: #000;
+  --body-color: #fff;
+}
+
+body {
+  margin: 0; 
+  color: var(--body-color); 
+  background: var(--background-color);
+ 
+  
