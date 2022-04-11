@@ -1,10 +1,14 @@
 /* G R I D */
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 1rem;
-}
+ .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px
+    grid-row-gap: 10px
+    justify-items: stretch
+    align-items: stretch
+ }
 
 .grid div {
   background-color:rgba(0,0,0,0.1);
