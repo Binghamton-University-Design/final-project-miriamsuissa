@@ -9,7 +9,10 @@
 body { 
   font-family: 'Inter', sans-serif;
   color: var(--body-color);
-  background: var(--background-color);
+  background-image: url("../images/bg.png");
+  background-repeat: none;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #wrapper {
@@ -40,14 +43,12 @@ img {
 
 #intro-title {
   flex: 0 0 100%; 
-  background: #fff;
 }
 
 #intro-down {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: #fff;
   font-size: 3em;
   padding-bottom: .25em;
 }
@@ -89,12 +90,12 @@ img {
   height: 100vh;
   position: sticky;
   top: 0;
-  background: #e6e6e6;
+  /*background: #e6e6e6;*/
 }
 
 #story-scroll {
   height: 600vh;
-  background: red;
+  /*background: red;*/
 }
 
 #part-1, #part-2, #part-3, #part-4, #part-5 {
@@ -105,6 +106,7 @@ img {
   display: none;
 }
 
+/*
 #part-1 {
   background: #CB4335;
 }
@@ -124,6 +126,7 @@ img {
 #part-5 {
   background: #2471A3;
 }
+*/
 
 #part-1-inner, #part-2-inner, #part-3-inner, #part-4-inner, #part-5-inner {
   font-size: 5em;
