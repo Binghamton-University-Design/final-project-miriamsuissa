@@ -45,6 +45,19 @@ img {
   flex: 0 0 100%; 
 }
 
+#intro-up {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  font-size: 1em;
+}
+
+#intro-up h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-top:  1em;
+}
+
 #intro-down {
   position: absolute;
   bottom: 0;
@@ -106,11 +119,15 @@ img {
   display: none;
 }
 
-/*
+
 #part-1 {
-  background: #CB4335;
+  background-image: url("../images/medhouseintrov2.gif");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
 }
 
+/*
 #part-2 {
   background: #D35400;
 }
@@ -129,10 +146,52 @@ img {
 */
 
 #part-1-inner, #part-2-inner, #part-3-inner, #part-4-inner, #part-5-inner {
+  height: 100%;
+  /*
   font-size: 5em;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100%;
+  */
+}
+
+.main {
+  text-align: center;
+  margin-top:  2em;
+}
+
+.left {
+  height: 100%;
+  position: relative;
+}
+
+.right {
+  position: relative;
+  height: 100%;
+}
+
+.left-inner {
+  position: absolute;
+  bottom: 20%;
+  margin: 2em;
+  text-transform: uppercase;
+}
+
+.right-inner {
+  position: absolute;
+  bottom: 15%;
+  margin: 2em;
+  text-transform: uppercase;
+}
+
+
+.main h2 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+.main p {
+  text-transform: uppercase;
 }
