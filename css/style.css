@@ -9,7 +9,7 @@
 body { 
   font-family: 'Raleway', sans-serif;
   color: var(--body-color);
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/bg2-01.jpg");
   background-repeat: none;
   background-attachment: fixed;
   background-size: cover;
@@ -175,12 +175,13 @@ img {
 }
 
 #intro {
-  background-image: url("../images/introbirds.gif");
-  background-repeat: repeat;
-  background-size: 60%;
+  background-image: url("../images/introbirds2.gif");
+  background-repeat: no-repeat;
+  background-size: 30%;
   background-position: top;
-
+  background-attachment: fixed;
 }
+
 
 
 #part-1 {
@@ -199,6 +200,20 @@ img {
 
 #part-3 {
   background-image: url("../images/housepg3.gif");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+
+#part-4 {
+  background-image: url("../images/housepg4.gif");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+
+#part-5 {
+  background-image: url("../images/housepg5.gif");
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
@@ -260,6 +275,14 @@ img {
   margin-bottom: .3em;
   text-transform: uppercase;
 }
-  /* text-transform: uppercase; /*
-  
+
+.logo svg {
+  margin-right: .25rem;
+  height: 3.6rem;
+  width: auto;
+}
+
+  /* text-transform: uppercase; */
+
+
 
