@@ -125,6 +125,7 @@ img {
   z-index: 0;
   display: none;
   overflow: hidden;
+  padding: 2em;
 }
 
 #intro {
@@ -182,20 +183,14 @@ img {
 }
 
 .left {
-  height: 100%;
   position: relative;
 }
 
 .right {
   position: relative;
-  height: 100%;
 }
 
 .left-inner {
-  position: absolute;
-  bottom: 25%;
-  margin: 3em;
-  text-transform: uppercase;
   color: #6082B6;
   font-size: 1.1em;
   font-kerning: none;
@@ -212,10 +207,10 @@ img {
 }
 
 .main p, .right p, .left p {
-  text-transform: uppercase;
   font-size: 1.2em;
   font-kerning: none;
   display: none;
+  margin-bottom: 1em;
 }
 
 .main h2 {
@@ -234,7 +229,7 @@ img {
   width: auto;
 }
 
-  /* text-transform: uppercase; */
+/* text-transform: uppercase; */
 
 
 
