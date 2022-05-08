@@ -3,17 +3,18 @@
 /* vars */
 :root {
   --background-color: #fff;
-  --body-color: #111;
+  --body-color: #7A5546;
 }
 
 body { 
   font-family: 'Raleway', sans-serif;
   color: var(--body-color);
-  background-image: url("../images/bg2-01.jpg");
+  background-image: url("../images/bg3-03-03.jpg");
   background-repeat: none;
   background-attachment: fixed;
   background-size: cover;
   font-kerning: auto;
+  text-transform: lowercase;
 }
 
 #wrapper {
@@ -53,12 +54,14 @@ img {
   top: 0;
   width: 100%;
   font-size: 1.2em;
+  text-transform: lowercase;
 }
 
 #intro-up h3 {
   font-size: 1em;
   text-transform: uppercase;
   margin-top:  1em;
+  text-transform: lowercase;
 }
 
 #intro-down {
@@ -70,10 +73,11 @@ img {
 }
 
 #intro-title h1 {
-  font-size: 7em;
+  font-size: 6.5em;
   letter-spacing: 3px;
   font-family: 'Butler', sans-serif;
   font-kerning: none;
+  text-transform: lowercase;
 }
 
 .bounce {
@@ -129,7 +133,6 @@ img {
 }
 
 #intro {
-  background-image: url("../images/introbirds2.gif");
   background-repeat: no-repeat;
   background-size: 30%;
   background-position: top;
@@ -142,35 +145,35 @@ img {
   background-image: url("../images/housepg1.gif");
   background-repeat: no-repeat;
   background-size: 80%;
-  background-position: center;
+  background-position: right;
 }
 
 #part-2 {
   background-image: url("../images/housepg2.gif");
   background-repeat: no-repeat;
   background-size: 80%;
-  background-position: center;
+  background-position: right;
 }
 
 #part-3 {
   background-image: url("../images/housepg3.gif");
   background-repeat: no-repeat;
   background-size: 80%;
-  background-position: center;
+  background-position: right;
 }
 
 #part-4 {
   background-image: url("../images/housepg4.gif");
   background-repeat: no-repeat;
   background-size: 80%;
-  background-position: center;
+  background-position: right;
 }
 
 #part-5 {
   background-image: url("../images/housepg5.gif");
   background-repeat: no-repeat;
   background-size: 80%;
-  background-position: center;
+  background-position: right;
 }
 
 #part-1-inner, #part-2-inner, #part-3-inner, #part-4-inner, #part-5-inner {
@@ -191,17 +194,16 @@ img {
 }
 
 .left-inner {
-  color: #6082B6;
   font-size: 1.1em;
   font-kerning: none;
+  font-weight: bold;
 }
 
 .right-inner {
   position: absolute;
   bottom: 15%;
   margin: 3em;
-  text-transform: uppercase;
-  color: #6082B6;
+  text-transform: lowercase;
   font-size: 1.1em;
   font-kerning: none;
 }
@@ -211,6 +213,7 @@ img {
   font-kerning: none;
   display: none;
   margin-bottom: 1em;
+  text-transform: lowercase;
 }
 
 .main h2 {
@@ -221,15 +224,15 @@ img {
   text-transform: uppercase;
   display: none;
   transition: opacity .3s ease-in-out;
+  text-transform: lowercase;
 }
 
 .logo svg {
   margin-right: .25rem;
   height: 3.6rem;
   width: auto;
+  text-transform: lowercase;
 }
 
 /* text-transform: uppercase; */
-
-
 
