@@ -58,10 +58,10 @@ img {
 }
 
 #intro-up h3 {
-  font-size: 1em;
-  text-transform: uppercase;
+  font-size: 1.5em;
   margin-top:  1em;
   text-transform: lowercase;
+  font-weight: bolder;
 }
 
 #intro-down {
